@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadro de Medalhas </title>
+    <script src="https://kit.fontawesome.com/d845cf4f99.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="blue">Tab</h1>
+        <h1 id="yellow">ela</h1>
+        <h1 id="white">Olí</h1>
+        <h1 id="green">mpi</h1>
+        <h1 id="red">ca</h1>
+    </header>
+
+    <main>
+        <section id="search-section">
+            <label id="search-bar-label" for="search-bar">Pesquisa</label>
+            <div id="bar-and-button">
+                <i id="search-icon" class="fas fa-search"></i>
+                <input id="search-bar" type="text" name="search-bar" placeholder="Pesquisar por país">
+                <span id="example">Ex : Brasil</span>  
+                <button id="search-button">Pesquisar</button>
+            </div>
+        </section>                  
+
+        <div id="table-container">
+
+            <table id="table">
+                <tr>
+                    <th>
+                        Posição 
+                        <button id="icon-position">
+                            <i class="fas fa-angle-down"></i>
+                        </button>
+                    </th>
+                    <th id="head-country">País</th>
+                    <th>Ouro 
+                        <button id="icon-gold">
+                            <i class="fas fa-angle-down"></i>
+                        </button></th>
+                    <th>Prata 
+                        <button id="icon-silver">
+                            <i class="fas fa-angle-down"></i>
+                        </button></th>
+                    <th>Bronze 
+                        <button id="icon-bronze">
+                            <i class="fas fa-angle-down"></i>
+                        </button></th>
+                    <th>Total</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
